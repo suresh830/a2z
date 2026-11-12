@@ -8,6 +8,7 @@ Admin panel:  http://127.0.0.1:8765/admin/
 """
 import hashlib
 import json
+import os
 import re
 import secrets
 import threading
@@ -23,7 +24,8 @@ DB_PATH = DATA / "db.json"
 UPLOADS = ROOT / "assets" / "uploads"
 ARTWORK = ROOT / "assets" / "artwork"
 ARTWORK_RE = re.compile(r"assets/artwork/[0-9a-f]{16}\.(pdf|ai|png|jpg|jpeg|tif|tiff|svg|webp)")
-PORT = 8765
+PORT = int(os.environ.get("PORT", "8765"))
+HOST = "0.0.0.0" if os.environ.get("PORT") else "127.0.0.1"
 SESSIONS = {}
 CUSTOMER_SESSIONS = {}
 LOCK = threading.Lock()
@@ -1334,7 +1336,7 @@ class App(BaseHTTPRequestHandler):
 
 if __name__ == "__main__":
     load_db()
-    print(f"A2Z site    http://127.0.0.1:{PORT}/")
-    print(f"Admin panel http://127.0.0.1:{PORT}/admin/")
+    print(f"A2Z site    http://{HOST}:{PORT}/")
+    print(f"Admin panel http://{HOST}:{PORT}/admin/")
     print(f"Sign in with {DEFAULT_USER} / {DEFAULT_PASSWORD} until the password is changed")
-    ThreadingHTTPServer(("127.0.0.1", PORT), App).serve_forever()
+    ThreadingHTTPServer((HOST, PORT), App).serve_forever()
