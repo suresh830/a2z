@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560">
+<defs>
+  <filter id="sh" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#1a1330" flood-opacity="0.16"/>
+  </filter>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fbf7f2"/>
+    <stop offset="1" stop-color="#f3ece3"/>
+  </linearGradient>
+</defs>
+<rect width="800" height="560" fill="url(#bg)"/>
+
+  <g filter="url(#sh)">
+    <rect x="270" y="40" width="260" height="470" rx="4" fill="#fff"/>
+    <rect x="270" y="40" width="260" height="70" fill="#1d2b86"/>
+    <text x="400" y="82" text-anchor="middle" font-family="Arial" font-size="16" font-weight="700" fill="#fff">A2Z</text>
+    <rect x="270" y="110" width="260" height="400" fill="#e4572a"/>
+    <text x="400" y="250" text-anchor="middle" font-family="Arial" font-size="28" font-weight="800" fill="#fff">SYNTHETIC</text>
+    <text x="400" y="286" text-anchor="middle" font-family="Arial" font-size="28" font-weight="800" fill="#fff">POSTER</text>
+    <rect x="310" y="330" width="180" height="6" rx="3" fill="#fff" opacity=".8"/>
+    <rect x="330" y="348" width="140" height="6" rx="3" fill="#fff" opacity=".8"/>
+    <rect x="350" y="366" width="100" height="6" rx="3" fill="#fff" opacity=".8"/>
+  </g>
+
+</svg>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>A2Z Admin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Outfit:wght@500;650;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="admin.css" />
+</head>
+<body>
+  <section class="gate" id="gate">
+    <div class="gate-brand">
+      <p class="logo logo-light" aria-label="A2Z Printing"><span>A</span><span class="logo-mark">2</span><span>Z</span></p>
+      <p class="gate-kicker">Studio admin</p>
+      <h1>Run the print shop from one desk.</h1>
+      <p class="gate-lead">Products, reviews, and quote requests update the website the next time a page loads.</p>
+      <ul class="gate-points">
+        <li>Choose which products appear on the homepage</li>
+        <li>Keep categories and customer reviews current</li>
+        <li>Read every quote sent from the site</li>
+      </ul>
+    </div>
+    <form class="gate-card" id="login-form">
+      <p class="brand">Welcome back</p>
+      <h1>Sign in</h1>
+      <p class="hint" id="login-hint">First visit uses <strong>admin</strong> / <strong>a2zprint</strong>. Change that password in Settings.</p>
+      <label>Username<input name="username" autocomplete="username" required /></label>
+      <label>Password<input name="password" type="password" autocomplete="current-password" required /></label>
+      <p class="error" id="login-error"></p>
+      <button type="submit">Sign in</button>
+    </form>
+  </section>
+
+  <div class="shell" id="shell" hidden>
+    <aside class="side">
+      <div class="side-brand">
+        <p class="logo logo-light" aria-label="A2Z Printing"><span>A</span><span class="logo-mark">2</span><span>Z</span></p>
+        <p>Printing studio</p>
+      </div>
+      <nav>
+        <p class="nav-label">Catalogue</p>
+        <button type="button" data-view="dashboard" class="is-on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span>Dashboard</span></button>
+        <button type="button" data-view="products"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 8 12 4l8 4-8 4-8-4z"/><path d="M4 12l8 4 8-4"/><path d="M4 16l8 4 8-4"/></svg><span>Products</span></button>
+        <button type="button" data-view="variantTypes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h10M4 17h13"/></svg><span>Variant types</span></button>
+        <button type="button" data-view="variants"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 6h12M8 12h12M8 18h12"/><circle cx="4" cy="6" r="1.2" fill="currentColor"/><circle cx="4" cy="12" r="1.2" fill="currentColor"/><circle cx="4" cy="18" r="1.2" fill="currentColor"/></svg><span>Variants</span></button>
+        <button type="button" data-view="categories"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg><span>Categories</span></button>
+        <p class="nav-label">Sales</p>
+        <button type="button" data-view="orders"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 7h12l-1 13H7L6 7z"/><path d="M9 7V5a3 3 0 0 1 6 0v2"/></svg><span>Orders</span></button>
+        <button type="button" data-view="customers"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="3"/><path d="M3.5 19a5.5 5.5 0 0 1 11 0"/><circle cx="17" cy="9" r="2.2"/><path d="M16 19a4.5 4.5 0 0 1 4.5-4"/></svg><span>Customers</span></button>
+        <button type="button" data-view="inquiries"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg><span>Inquiries</span></button>
+        <p class="nav-label">Studio</p>
+        <button type="button" data-view="website"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18"/></svg><span>Website</span></button>
+        <button type="button" data-view="sections"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="6" rx="1.5"/><rect x="3" y="14" width="8" height="6" rx="1.5"/><rect x="13" y="14" width="8" height="6" rx="1.5"/></svg><span>Page sections</span></button>
+        <button type="button" data-view="reviews"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m12 3 2.4 5.4L20 9.2l-4 3.8.9 5.8L12 16.2 7.1 18.8 8 13 4 9.2l5.6-.8L12 3z"/></svg><span>Reviews</span></button>
+        <button type="button" data-view="settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 3v2.2M12 18.8V21M3 12h2.2M18.8 12H21M5.6 5.6l1.6 1.6M16.8 16.8l1.6 1.6M18.4 5.6l-1.6 1.6M7.2 16.8l-1.6 1.6"/></svg><span>Settings</span></button>
+      </nav>
+    </aside>
+    <div class="work">
+      <header class="admin-top">
+        <span>Studio desk</span>
+        <button type="button" class="ghost" id="logout">Sign out</button>
+      </header>
+      <main class="main" id="main"></main>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="admin.js"></script>
+</body>
+</html>

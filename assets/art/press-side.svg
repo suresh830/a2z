@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560">
+<defs>
+  <filter id="sh" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#1a1330" flood-opacity="0.16"/>
+  </filter>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fbf7f2"/>
+    <stop offset="1" stop-color="#f3ece3"/>
+  </linearGradient>
+</defs>
+<rect width="800" height="560" fill="url(#bg)"/>
+
+  <rect width="800" height="560" fill="#eceff1"/>
+  <rect x="40" y="180" width="720" height="220" rx="20" fill="#dfe3e6"/>
+  <circle cx="180" cy="290" r="90" fill="#c5ccd1" stroke="#9aa3aa" stroke-width="10"/>
+  <circle cx="180" cy="290" r="30" fill="#8b949b"/>
+  <rect x="250" y="230" width="360" height="120" rx="8" fill="#fff"/>
+  <rect x="270" y="255" width="90" height="70" fill="#e4572a"/>
+  <rect x="370" y="255" width="70" height="70" fill="#1d2b86"/>
+  <rect x="450" y="255" width="70" height="70" fill="#1f8f86"/>
+  <rect x="530" y="255" width="60" height="70" fill="#f5d000"/>
+  <rect x="40" y="420" width="720" height="18" rx="8" fill="#b7c0c6"/>
+  <circle cx="640" cy="200" r="34" fill="#00a3d9"/>
+  <circle cx="700" cy="230" r="28" fill="#e01278"/>
+
+</svg>

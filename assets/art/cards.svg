@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560">
+<defs>
+  <filter id="sh" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#1a1330" flood-opacity="0.16"/>
+  </filter>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fbf7f2"/>
+    <stop offset="1" stop-color="#f3ece3"/>
+  </linearGradient>
+</defs>
+<rect width="800" height="560" fill="url(#bg)"/>
+
+  <rect width="800" height="560" fill="#1d3f73"/>
+  <path d="M0 0 L800 0 L800 560 L0 560 Z" fill="#16325c"/>
+  <path d="M520 0 L800 0 L800 280 Z" fill="#c4a46a" opacity=".9"/>
+  <g filter="url(#sh)">
+    <rect x="90" y="70" width="430" height="240" rx="14" fill="#102848"/>
+    <circle cx="150" cy="150" r="28" fill="#d7b56a"/>
+    <text x="210" y="146" font-family="Arial" font-size="20" font-weight="700" fill="#f4efe4" letter-spacing="3">COMPANY</text>
+    <text x="210" y="176" font-family="Arial" font-size="20" font-weight="700" fill="#d7b56a" letter-spacing="6">LOGO</text>
+  </g>
+  <g filter="url(#sh)">
+    <rect x="300" y="250" width="430" height="240" rx="14" fill="#0e2240"/>
+    <text x="340" y="320" font-family="Arial" font-size="16" fill="#f4efe4">ALEX MORGAN</text>
+    <text x="340" y="346" font-family="Arial" font-size="13" fill="#d7b56a">PRINT PRODUCER</text>
+    <text x="340" y="400" font-family="Arial" font-size="13" fill="#d5deea">08 6288 5285</text>
+    <text x="340" y="424" font-family="Arial" font-size="13" fill="#d5deea">hello@a2zprinting.com.au</text>
+  </g>
+
+</svg>

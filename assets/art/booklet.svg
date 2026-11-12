@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560">
+<defs>
+  <filter id="sh" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#1a1330" flood-opacity="0.16"/>
+  </filter>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fbf7f2"/>
+    <stop offset="1" stop-color="#f3ece3"/>
+  </linearGradient>
+</defs>
+<rect width="800" height="560" fill="url(#bg)"/>
+
+  <g filter="url(#sh)">
+    <path d="M90 80 H390 Q400 80 400 90 V470 Q400 480 390 480 H90 Z" fill="#fff"/>
+    <path d="M710 80 H410 Q400 80 400 90 V470 Q400 480 410 480 H710 Z" fill="#f7f4ef"/>
+    <rect x="120" y="110" width="240" height="150" fill="#e4572a"/>
+    <circle cx="200" cy="175" r="28" fill="#f6e2c4"/>
+    <rect x="240" y="150" width="90" height="8" fill="#fff"/>
+    <rect x="240" y="168" width="70" height="8" fill="#fff" opacity=".8"/>
+    <rect x="120" y="290" width="220" height="8" fill="#ddd"/>
+    <rect x="120" y="312" width="200" height="8" fill="#eee"/>
+    <rect x="120" y="334" width="180" height="8" fill="#eee"/>
+    <text x="450" y="160" font-family="Georgia, serif" font-size="28" fill="#1a1430">Lookbook</text>
+    <rect x="450" y="190" width="200" height="8" fill="#ddd"/>
+    <rect x="450" y="214" width="180" height="8" fill="#eee"/>
+    <rect x="450" y="238" width="160" height="8" fill="#eee"/>
+    <rect x="450" y="280" width="180" height="120" rx="6" fill="#1d2b86"/>
+  </g>
+
+</svg>

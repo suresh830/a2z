@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560">
+<defs>
+  <filter id="sh" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#1a1330" flood-opacity="0.16"/>
+  </filter>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fbf7f2"/>
+    <stop offset="1" stop-color="#f3ece3"/>
+  </linearGradient>
+</defs>
+<rect width="800" height="560" fill="url(#bg)"/>
+
+    <g filter="url(#sh)">
+      <rect x="250" y="80" width="300" height="400" rx="6" fill="#fff"/>
+      <rect x="250" y="80" width="300" height="52" rx="6" fill="#1d2b86"/>
+      <rect x="250" y="120" width="300" height="14" fill="#1d2b86"/>
+      <text x="400.0" y="113" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#fff">A2Z  FLYERS</text>
+      <rect x="250" y="134" width="300" height="346" fill="#e4572a"/>
+      <rect x="268" y="158" width="264" height="6" rx="3" fill="#fff" opacity=".85"/><rect x="268" y="174" width="246" height="6" rx="3" fill="#fff" opacity=".85"/><rect x="268" y="190" width="228" height="6" rx="3" fill="#fff" opacity=".85"/><rect x="268" y="206" width="264" height="6" rx="3" fill="#fff" opacity=".85"/><rect x="268" y="222" width="246" height="6" rx="3" fill="#fff" opacity=".85"/><rect x="268" y="238" width="228" height="6" rx="3" fill="#fff" opacity=".85"/><rect x="268" y="254" width="264" height="6" rx="3" fill="#fff" opacity=".85"/><rect x="268" y="270" width="246" height="6" rx="3" fill="#fff" opacity=".85"/>
+    </g>
+</svg>

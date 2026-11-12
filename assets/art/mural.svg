@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560">
+<defs>
+  <filter id="sh" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#1a1330" flood-opacity="0.16"/>
+  </filter>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fbf7f2"/>
+    <stop offset="1" stop-color="#f3ece3"/>
+  </linearGradient>
+</defs>
+<rect width="800" height="560" fill="url(#bg)"/>
+
+  
+    <g filter="url(#sh)">
+      <rect x="160" y="90" width="480" height="360" rx="6" fill="#fff"/>
+      <rect x="160" y="90" width="480" height="52" rx="6" fill="#1d2b86"/>
+      <rect x="160" y="130" width="480" height="14" fill="#1d2b86"/>
+      <text x="400.0" y="123" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#fff">A2Z   FOAM  PVC</text>
+      <rect x="160" y="144" width="480" height="306" fill="#e4572a"/>
+      <rect x="178" y="168" width="444" height="6" rx="3" fill="#fff" opacity=".85"/><rect x="178" y="184" width="426" height="6" rx="3" fill="#fff" opacity=".85"/><rect x="178" y="200" width="408" height="6" rx="3" fill="#fff" opacity=".85"/><rect x="178" y="216" width="444" height="6" rx="3" fill="#fff" opacity=".85"/><rect x="178" y="232" width="426" height="6" rx="3" fill="#fff" opacity=".85"/><rect x="178" y="248" width="408" height="6" rx="3" fill="#fff" opacity=".85"/><rect x="178" y="264" width="444" height="6" rx="3" fill="#fff" opacity=".85"/>
+    </g>
+  <text x="400" y="250" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#fff">WALL  GRAPHICS</text>
+
+</svg>
