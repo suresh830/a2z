@@ -2,3 +2,7 @@ __pycache__/
 *.pyc
 data/db.json
 data/db.tmp
+data/node-store.json
+node_modules/
+client/node_modules/
+client/dist/
